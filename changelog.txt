@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0 - FORK
+Version: 1.0.0
   Changes:
     - Removed blacklist for certain types of research, as I found it rather silly to block these given the original mod's purpose.
 ---------------------------------------------------------------------------------------------------
