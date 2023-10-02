@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"title": "Space Science Delivery - Fork",
 	"author": "kronflux",
-	"description": "Fork of Karochl's Space Science Delivery. Extends the Space Exploration Delivery-Cannon recipes with a way to deliver items of the category 'Tool', this covers for example Science Packs.",
+	"description": "Fork of Karochl's Space Science Delivery. Extends the Space Exploration Delivery-Cannon recipes with a way to deliver items of the category 'Tool', this covers for example Science Packs. This fork removes the blacklist, as I found it rather silly given the original mod's purpose.",
 	"factorio_version": "1.1",
 	"dependencies": [
 		"base",

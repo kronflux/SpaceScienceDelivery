@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0 - FORK
+  Changes:
+    - Removed blacklist for certain types of research, as I found it rather silly to block these given the original mod's purpose.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.11
   Bugfixes:
     - Fixed changelog (https://github.com/nicolas-lang/Factorio.SpaceScienceDelivery/issues/8)
