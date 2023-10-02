@@ -1,4 +1,5 @@
-﻿local data = _G.data
+﻿local util = require("util")
+local data = _G.data
 local data_util = require("data_util")
 --=================================================================================================
 local itemBoxName
@@ -23,7 +24,7 @@ for _, item in pairs(data.raw["tool"]) do
             txt = txt .. ",box found"
             newItem.order = "zz" .. item.order
             local overlayIcon = {
-                icon = "__nco-SpaceScienceDelivery__/graphics/icons/icon_P.png",
+                icon = "__SpaceScienceDelivery-fork__/graphics/icons/icon_P.png",
                 icon_size = 64
             }
             if item.icons then
@@ -104,7 +105,7 @@ for _, item in pairs(data.raw["tool"]) do
             unboxRecipe.category = "space-manufacturing"
             unboxRecipe.icon = nil
             local unboxOverlayIcon = {
-                icon = "__nco-SpaceScienceDelivery__/graphics/icons/icon_U.png",
+                icon = "__SpaceScienceDelivery-fork__/graphics/icons/icon_U.png",
                 icon_size = 64
             }
             if item.icons then
